@@ -105,7 +105,7 @@ const buttonConfig = (isReact = false) => {
 const chatwindowConfig = (isReact = false) => {
     return isReact
         ? `chatWindow: {
-                    welcomeMessage: "Hello! This is custom welcome message",
+                    welcomeMessage: "Hai! Selamat datang, pemelajar BIPA",
                     backgroundColor: "#ffffff",
                     height: 700,
                     width: 400,
@@ -124,14 +124,14 @@ const chatwindowConfig = (isReact = false) => {
                         avatarSrc: "https://raw.githubusercontent.com/zahidkhawaja/langchain-chat-nextjs/main/public/usericon.png",
                     },
                     textInput: {
-                        placeholder: "Type your question",
+                        placeholder: "Tulis pertanyaan Anda",
                         backgroundColor: "#ffffff",
                         textColor: "#303235",
                         sendButtonColor: "#3B81F6",
                     }
                 }`
         : `chatWindow: {
-                welcomeMessage: "Hello! This is custom welcome message",
+                welcomeMessage: "Hai! Selamat datang pemelajar BIPA!",
                 backgroundColor: "#ffffff",
                 height: 700,
                 width: 400,

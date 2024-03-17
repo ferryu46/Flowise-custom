@@ -103,10 +103,10 @@ const ShareChatbot = ({ isSessionMemory }) => {
     const formatObj = () => {
         const obj = {
             botMessage: {
-                showAvatar: false
+                showAvatar: true
             },
             userMessage: {
-                showAvatar: false
+                showAvatar: true
             },
             textInput: {},
             overrideConfig: {}
